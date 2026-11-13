@@ -19,7 +19,7 @@ through better CI/CD, and put their infrastructure on a footing that scales.
 ## Work you can look at
 
 | Repository | What it shows |
-|---|---|
+| --- | --- |
 | [github-settings](https://github.com/horrell-consulting/github-settings) | Governance as code: every repository in this organization is configured, protected and onboarded by Terraform on HCP Terraform, with a Sentinel deletion guard and a GitHub App bot |
 | [packer-aws-windows-openssh](https://github.com/chorrell/packer-aws-windows-openssh) | Packer (HCL2) templates for encrypted, key-only-SSH Windows Server 2022 and 2025 AMIs with Fast Launch, built and tested in CI |
 | [docker-node-minimal](https://github.com/chorrell/docker-node-minimal) | A `FROM scratch` Node.js image with a static binary compiled from source, multi-arch, rebuilt automatically for every supported release |
@@ -27,7 +27,7 @@ through better CI/CD, and put their infrastructure on a footing that scales.
 ### In progress
 
 | Repository | What it will show |
-|---|---|
+| --- | --- |
 | [eks-spot-runners](https://github.com/chorrell/eks-spot-runners) | Ephemeral GitHub Actions runners on EKS spot instances (amd64 and arm64/Graviton) for cheap multi-platform Docker builds |
 | [doks-runners](https://github.com/chorrell/doks-runners) | A low-cost, always-available self-hosted runner fleet on DigitalOcean Kubernetes |
 
