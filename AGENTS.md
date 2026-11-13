@@ -2,9 +2,11 @@
 
 The `horrell-consulting` organization's `.github` repository. GitHub shows
 `profile/README.md` on the organization page, and only while this repository is
-public. It's a portfolio page for job applications and client work, so keep it
-accurate: describe each project as its own README does, and list unfinished
-projects under "In progress".
+public. It's a portfolio page for full-time, contract and fractional work, so
+keep it accurate: every number in "Track record" comes from the CV in
+career-ops (`cv.md`), each project is described as its own README does, and
+unfinished projects go under "In progress". The headline matches LinkedIn,
+the CV and the `chorrell` profile; change them together.
 
 ## Structure
 
