@@ -8,7 +8,7 @@ through better CI/CD, and put their infrastructure on a footing that scales.
 ## What I do
 
 - **AWS cost optimization:** spot and Graviton capacity, right-sizing, and
-  build fleets that cost cents instead of dollars.
+  build fleets that only run while there's work to do.
 - **CI/CD modernization:** fast, secure pipelines with shared workflows,
   pinned dependencies, and self-hosted runners where they pay off.
 - **Infrastructure as code:** Terraform and HCP Terraform with guard rails:
