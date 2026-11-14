@@ -2,17 +2,17 @@
 
 **Staff DevOps Engineer: CI/CD, build and release, and developer productivity.**
 
-I build the systems engineering teams use to build, test and ship software,
+I build the systems engineers use to build, test and ship software,
 and make them faster and cheaper to run. I'm based in Toronto and available for
 full-time, contract and fractional work.
 
 ## Track record
 
 - **Nymi (2017–2020, 2023–2024):** designed and built the company's Jenkins
-  CI/CD platform on AWS from scratch, then returned as DevOps Architect to lead
+  CI/CD platform on AWS from, then returned as DevOps Architect to lead
   the team running it. Self-service pipelines served 20–30 developers and test
-  engineers across Rust, Elixir, C++, .NET and Swift. Cut CI infrastructure
-  costs by about 50% with on-demand build agents, made builds 30% faster, cut
+  engineers across Rust, Elixir, C++, .NET and Swift. Reduced CI infrastructure
+  costs by about 50% with on-demand build agents, made builds 30% faster, reduced
   S3 costs by 50%, and automated the audit and validation documents for every
   release.
 - **Nylas (2020–2022):** Staff Site Reliability Engineer on a production API
@@ -27,7 +27,7 @@ full-time, contract and fractional work.
 
 ## How I can help
 
-- **CI/CD platforms:** design, build or rescue pipelines in Jenkins and GitHub
+- **CI/CD platforms:** design, build or improve pipelines in Jenkins and GitHub
   Actions, with self-service for developers and shared, versioned workflows.
 - **Faster, cheaper builds:** on-demand build agents, caching and dependency
   management, so builds wait less and idle capacity costs nothing.
@@ -38,21 +38,14 @@ full-time, contract and fractional work.
 - **Fractional DevOps:** a few days a month of senior ownership of your build
   and delivery infrastructure, for teams not yet ready for a full-time hire.
 
-## Work you can look at
+## Some of my work
 
-| Repository | What it shows |
+| Repository | Description |
 | --- | --- |
-| [github-settings](https://github.com/horrell-consulting/github-settings) | Developer productivity as code: every repository here is configured, protected and onboarded by Terraform on HCP Terraform, with a Sentinel deletion guard and a GitHub App bot |
+| [github-settings](https://github.com/horrell-consulting/github-settings) | Developer productivity as code: every GitHub repository here is configured, protected and onboarded by Terraform on HCP Terraform, with a Sentinel deletion guard and a GitHub App bot |
 | [packer-aws-windows-openssh](https://github.com/chorrell/packer-aws-windows-openssh) | The open version of the Windows build-agent images I built at Nymi: Packer (HCL2) AMIs for Windows Server 2022 and 2025 using OpenSSH instead of WinRM, built and tested in CI |
 | [docker-node-minimal](https://github.com/chorrell/docker-node-minimal) | A `FROM scratch` Node.js image with a static binary compiled from source, multi-arch, rebuilt automatically for every supported release |
 | [workflows](https://github.com/chorrell/workflows) and [template-repo](https://github.com/chorrell/template-repo) | Shared, versioned GitHub Actions workflows and the template every new repository starts from |
-
-### In progress
-
-| Repository | What it will show |
-| --- | --- |
-| [eks-spot-runners](https://github.com/chorrell/eks-spot-runners) | Ephemeral GitHub Actions runners on EKS spot instances (amd64 and arm64/Graviton) for cheap multi-platform Docker builds |
-| [doks-runners](https://github.com/chorrell/doks-runners) | A low-cost, always-available self-hosted runner fleet on DigitalOcean Kubernetes |
 
 ## Get in touch
 
